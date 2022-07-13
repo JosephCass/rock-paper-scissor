@@ -9,6 +9,43 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <a href="#">Play</a>
+    <main class="main-container contain">
+      <h1 class="header">Rock🪨 Paper📃 Scissor✂️</h1>
+      <button class="game-start">Start Game</button>
+      <div class="game-container hidden">
+        <div class="player-container">
+          <h3 class="player-heading">Player👤</h3>
+          <p class="player-score-container">
+            Player: <span class="player-score">0</span>
+          </p>
+          <div class="player-buttons-container">
+            <div value="rock" class="player-button rock">Rock🪨</div>
+            <div value="paper" class="player-button paper">Paper📃</div>
+            <div value="scissor" class="player-button scissor">Scissor✂️</div>
+          </div>
+        </div>
+
+        <div class="computer-container">
+          <h3 class="computer-heading">Computer🤖</h3>
+          <p class="computer-score-container">
+            Computer: <span class="computer-score">0</span>
+          </p>
+          <div class="computer-buttons-container">
+            <div class="computer-button rock">Rock🪨</div>
+            <div class="computer-button paper">Paper📃</div>
+            <div class="computer-button scissor">Scissor✂️</div>
+          </div>
+        </div>
+      </div>
+      <div class="round-winner">
+        <h2 class="round-winner-text"></h2>
+      </div>
+      <div class="player-wins-display hidden">
+        <h2 class="player-wins-text">🎉 You Are The Winner 🎉</h2>
+      </div>
+      <div class="computer-wins-display hidden">
+        <h2 class="computer-wins-text">Computer Wins 🥊</h2>
+      </div>
+    </main>
   </body>
 </html>
